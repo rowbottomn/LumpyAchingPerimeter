@@ -1,0 +1,48 @@
+#container{
+  background-color: steelblue;
+  height : 800px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#banner{
+  width:  90%;
+  background-color: maroon;
+  flex-grow: 1;
+  margin: auto;
+}
+
+#content{
+  width:90%;
+  background-color: orange;
+  flex-grow: 5;
+  margin:auto;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#text{
+  background-color: pink;
+  width: 60%
+}
+
+#image{
+  background-color: grey;
+  width: 35%;
+  min-width: 180px;
+}
+#bottom{
+  width:90%;
+  background-color: limegreen;
+  flex-grow: 3;
+  margin:auto;
+}
+
+img{
+  width:100%;
+
+  margin: auto;
+}
